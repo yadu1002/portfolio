@@ -1,0 +1,125 @@
+* {box-sizing: border-box;}
+        
+        body {
+          margin: 0;
+          font-family: 'Courier New', Courier, monospace, sans-serif;
+        }
+
+        .header {
+        padding: 1px;
+        text-align: center;
+        background: #000000;
+        color: white;
+        font-family: "Brush Script MT", cursive, sans-serif;
+            margin: 0;
+        }
+ 
+        .header h1 {
+        font-size: 80px;
+        }
+        .row {
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+          padding: 0 4px;
+        }
+
+        .navbar {
+          width: 100%;
+          background-color: rgb(0, 0, 0);
+          overflow: auto;
+        }
+        
+        .navbar a {
+          float: left;
+          padding: 12px;
+          color: white;
+          text-decoration: none;
+          font-size: 17px;
+          width: 25%;
+          text-align: center;
+        }
+        .navbar a:hover {
+          background-color: rgb(129, 129, 129);
+        }
+        .navbar a.active {
+          background-color: #000000;
+        }
+
+        /*creates two equal columns that are next to each other */
+        .column {
+          -ms-flex: 50%;
+          flex: 50%;
+          padding: 0 4px;
+        }
+        
+        .column img {
+          margin-top: 8px;
+          vertical-align: middle;
+        }
+
+        </style>
+        </head>
+        <body>
+        <div class="header" id="myHeader">
+          <h1>UM</h1>
+        </div>
+          <div class="navbar">
+            <a href="/index.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+            <a href="/media.html"><i class="fa fa-fw fa-search"></i> Media</a> 
+            <a href="/prog.html"><i class="fa fa-fw fa-envelope"></i> Programming</a> 
+            <a href="/contact.html"><i class="fa fa-fw fa-user"></i> Contact</a>
+          </div>
+        </div>
+        <div class="row"> 
+          <div class="column">
+            <img src="/Photography /portraits/20210817_084048.jpg" style="width:100%">
+            <img src="/Photography /portraits/20210817_063309.jpg" style="width:100%">
+            <img src="/Photography /portraits/20210809_153434.jpg" style="width:100%">
+            <img src="/Photography /portraits/20210807_200602(0).jpg" style="width:100%">
+            <img src="/Photography /portraits/20210807_200306.jpg" style="width:100%">
+            <img src="/Photography /portraits/20210807_122715.jpg" style="width:100%">
+            <img src="/Photography /portraits/20210725_204939.jpg" style="width:100%">
+            <img src="/Photography /portraits/20210721_204817.jpg" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="/Photography /landscapes/Snapchat-516838144.jpg" style="width:100%">
+            <img src="/Photography /portraits/20210717_165302 (1).jpg" style="width:100%">
+            <img src="/Photography /landscapes/PSX_20200322_004001.jpg" style="width:100%">
+            <img src="/Photography /portraits/Snapchat-356830888.jpg" style="width:100%">
+            <img src="/Photography /landscapes/PSX_20200207_210143.jpg" style="width:100%">
+            <img src="/Photography /portraits/Snapchat-2019225314.jpg" style="width:100%">
+            <img src="/Photography /landscapes/PSX_20191120_025807.jpg" style="width:100%">
+            <img src="/Photography /portraits/Snapchat-1602184636.jpg" style="width:100%">
+            <img src="/Photography /landscapes/20200215_070455.jpg" style="width:100%">
+            <img src="/Photography /portraits/PSX_20200517_215256.jpg" style="width:100%">
+            <img src="/Photography /landscapes/20200524_203648.jpg" style="width:100%">
+        </div>  
+         
+        <div class="column">
+            <img src="/Photography /portraits/PSX_20200215_080541.jpg" style="width:100%">
+            <img src="/Photography /portraits/PSX_20200209_205943.jpg" style="width:100%">
+            <img src="/Photography /portraits/PSX_20191120_002418.jpg" style="width:100%">
+            <img src="/Photography /portraits/IMG_20191031_150818_353.jpg" style="width:100%">
+            <img src="/Photography /portraits/20210709_071535.jpg" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="/Photography /landscapes/20210828_182306.jpg" style="width:100%">
+            <img src="/Photography /landscapes/20210817_094015.jpg" style="width:100%">
+            <img src="/Photography /landscapes/20210320_071812~3.jpg" style="width:100%">
+            <img src="/Photography /landscapes/20201014_184117.jpg" style="width:100%">
+            <img src="/Photography /landscapes/20200708_165135.jpg" style="width:100%">
+            <img src="/Photography /landscapes/PSX_20191120_003052.jpg" style="width:100%">
+            <img src="/Photography /landscapes/20171208_121429.jpg" style="width:100%">
+            <img src="/Photography /landscapes/20171209_115702.jpg" style="width:100%">
+            <img src="/Photography /landscapes/20180320_171501.jpg" style="width:100%">
+            <img src="/Photography /landscapes/20180908_221636.jpg" style="width:100%">
+            <img src="/Photography /landscapes/20190724_174235.jpg" style="width:100%">
+            <img src="/Photography /landscapes/20190724_222050.jpg" style="width:100%">
+            <img src="/Photography /landscapes/20191231_161022.jpg" style="width:100%">
+            <img src="/Photography /landscapes/20200215_070455.jpg" style="width:100%">
+            <img src="/Photography /landscapes/20200524_203648.jpg" style="width:100%">
+        </div>  
+</body>
+</html>

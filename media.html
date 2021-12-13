@@ -10,7 +10,7 @@
           <hr style="height:2px; width:100%; border-width:0; color:rgb(255, 255, 255); background-color:rgb(255, 255, 255)">
     
     <style>
-        * {box-sizing: border-box;}
+          * {box-sizing: border-box;}
         
         body {
           margin: 0;
@@ -47,6 +47,7 @@
           float: left;
           padding: 12px;
           color: white;
+          font-family: 'Courier New', Courier, monospace, sans-serif;
           text-decoration: none;
           font-size: 17px;
           width: 25%;
@@ -56,7 +57,7 @@
           background-color: rgb(129, 129, 129);
         }
         .navbar a.active {
-          background-color: #000000;
+          background-color: #ffffff;
         }
 
         /*creates two equal columns that are next to each other */
@@ -70,8 +71,60 @@
           margin-top: 8px;
           vertical-align: middle;
         }
+* {
+  box-sizing: border-box;
+}
 
-        </style>
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
         </head>
         <body>
         <div class="header" id="myHeader">
@@ -84,55 +137,51 @@
             <a href="/contact.html"><i class="fa fa-fw fa-user"></i> Contact</a>
           </div>
         </div>
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="/portraits/20190724_213311.jpg" style="width:100%">
+    <img src="/portraits/20191231_173023.jpg" style="width:100%">
+    <img src="/portraits/20200606_210238.jpg" style="width:100%">
+    <img src="/portraits/20200616_193053.jpg" style="width:100%">
+    <img src="/portraits/20200707_204919.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/landscapes/20171208_121429.jpg" style="width:100%">
+    <img src="/landscapes/20171209_115702.jpg" style="width:100%">
+    <img src="/landscapes/20171230_171617.jpg" style="width:100%">
+    <img src="/landscapes/20171230_171623.jpg" style="width:100%">
+    <img src="/landscapes/20180320_171501.jpg" style="width:100%">
+    <img src="/landscapes/20180908_221636.jpg" style="width:100%">
+    <img src="/landscapes/20200215_070455.jpg" style="width:100%">
+    <img src="/landscapes/20200524_203648.jpg" style="width:100%">
+    <img src="/landscapes/20200708_165135.jpg" style="width:100%">
+    <img src="/landscapes/20201014_184117.jpg" style="width:100%">
+    <img src="/landscapes/20210320_071812~3.jpg" style="width:100%">
+    <img src="/landscapes/20210817_094015.jpg" style="width:100%">
+    <img src="/landscapes/PSX_20191120_003052.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="/portraits/20200904_200429.jpg" style="width:100%">
+    <img src="/portraits/20201108_193434.jpg" style="width:100%">
+    <img src="/portraits/20201115_193550.jpg" style="width:100%">
+    <img src="/portraits/20201117_060105.jpg" style="width:100%">
+    <img src="/portraits/20201219_152430.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/landscapes/20190724_174235.jpg" style="width:100%">
+    <img src="/landscapes/20190724_222050.jpg" style="width:100%">
+    <img src="/landscapes/20191028_103110.jpg" style="width:100%">
+    <img src="/landscapes/20191101_105219.jpg" style="width:100%">
+    <img src="/landscapes/20191124_173008.jpg" style="width:100%">
+    <img src="/landscapes/20191231_161022.jpg" style="width:100%">
+    <img src="/landscapes/20210828_182306.jpg" style="width:100%">
+    <img src="/landscapes/20943.jpeg" style="width:100%">
+    <img src="/landscapes/EFFECTS(1).jpg" style="width:100%">
+    <img src="/landscapes/EFFECTS.jpg" style="width:100%">
+    <img src="/landscapes/IMG_20190911_195159_999.jpg" style="width:100%">
+  </div>
+</div>
 
-        <div class="row"> 
-          <div class="column">
-            <img src="/Photography /portraits/20210817_084048.jpg" style="width:100%">
-            <img src="/Photography /portraits/20210817_063309.jpg" style="width:100%">
-            <img src="/Photography /portraits/20210809_153434.jpg" style="width:100%">
-            <img src="/Photography /portraits/20210807_200602(0).jpg" style="width:100%">
-            <img src="/Photography /portraits/20210807_200306.jpg" style="width:100%">
-            <img src="/Photography /portraits/20210807_122715.jpg" style="width:100%">
-            <img src="/Photography /portraits/20210725_204939.jpg" style="width:100%">
-            <img src="/Photography /portraits/20210721_204817.jpg" style="width:100%">
-          </div>
-          <div class="column">
-            <img src="/Photography /landscapes/Snapchat-516838144.jpg" style="width:100%">
-            <img src="/Photography /portraits/20210717_165302 (1).jpg" style="width:100%">
-            <img src="/Photography /landscapes/PSX_20200322_004001.jpg" style="width:100%">
-            <img src="/Photography /portraits/Snapchat-356830888.jpg" style="width:100%">
-            <img src="/Photography /landscapes/PSX_20200207_210143.jpg" style="width:100%">
-            <img src="/Photography /portraits/Snapchat-2019225314.jpg" style="width:100%">
-            <img src="/Photography /landscapes/PSX_20191120_025807.jpg" style="width:100%">
-            <img src="/Photography /portraits/Snapchat-1602184636.jpg" style="width:100%">
-            <img src="/Photography /landscapes/20200215_070455.jpg" style="width:100%">
-            <img src="/Photography /portraits/PSX_20200517_215256.jpg" style="width:100%">
-            <img src="/Photography /landscapes/20200524_203648.jpg" style="width:100%">
-        </div>  
-         
-        <div class="column">
-            <img src="/Photography /portraits/PSX_20200215_080541.jpg" style="width:100%">
-            <img src="/Photography /portraits/PSX_20200209_205943.jpg" style="width:100%">
-            <img src="/Photography /portraits/PSX_20191120_002418.jpg" style="width:100%">
-            <img src="/Photography /portraits/IMG_20191031_150818_353.jpg" style="width:100%">
-            <img src="/Photography /portraits/20210709_071535.jpg" style="width:100%">
-          </div>
-          <div class="column">
-            <img src="/Photography /landscapes/20210828_182306.jpg" style="width:100%">
-            <img src="/Photography /landscapes/20210817_094015.jpg" style="width:100%">
-            <img src="/Photography /landscapes/20210320_071812~3.jpg" style="width:100%">
-            <img src="/Photography /landscapes/20201014_184117.jpg" style="width:100%">
-            <img src="/Photography /landscapes/20200708_165135.jpg" style="width:100%">
-            <img src="/Photography /landscapes/PSX_20191120_003052.jpg" style="width:100%">
-            <img src="/Photography /landscapes/20171208_121429.jpg" style="width:100%">
-            <img src="/Photography /landscapes/20171209_115702.jpg" style="width:100%">
-            <img src="/Photography /landscapes/20180320_171501.jpg" style="width:100%">
-            <img src="/Photography /landscapes/20180908_221636.jpg" style="width:100%">
-            <img src="/Photography /landscapes/20190724_174235.jpg" style="width:100%">
-            <img src="/Photography /landscapes/20190724_222050.jpg" style="width:100%">
-            <img src="/Photography /landscapes/20191231_161022.jpg" style="width:100%">
-            <img src="/Photography /landscapes/20200215_070455.jpg" style="width:100%">
-            <img src="/Photography /landscapes/20200524_203648.jpg" style="width:100%">
-        </div>            
 </body>
 </html>

@@ -114,6 +114,53 @@
           background-color: #555;
           color: white;
         }
+
+        .contact h1, .contact h2, .contact h4 {font-family: 'Courier New', Courier, monospace, sans-serif;}
+        .contact p {font-family: 'Courier New', Courier, monospace, sans-serif;}
+        .contact-header-quote {font-style: italic;}
+        .contact-header-quote h4 {margin: 5px 0;}
+        .contact-instructions, .contact-form-body {
+          color: white;
+	        margin-top: 50px;
+	        padding: 0px 6%;
+        }
+
+        .email, .message {margin: 15px 0px;}
+        .contact input, .contact textarea {
+	        width: 100%;
+	        padding: 10px;
+	        margin: 3px 0px
+        }
+
+        .submit-contact .btn-border {margin-top: 10px;}
+        .footer {
+	        background-color: black;
+	        color: white;
+	        padding: 50px 0;
+          font-family: 'Courier New', Courier, monospace, sans-serif;
+        }
+
+        .footer h3, .footer h4 {font-family: 'Courier New', Courier, monospace, sans-serif;}
+        .facebook, .linkedin, .pinterest, .email-icon {padding: 31%;}
+        .footer img {
+          background-color: #8A8A8A;
+          -webkit-transition: all 200ms ease-out;
+          -moz-transition: all 200ms ease-out;
+          -o-transition: all 200ms ease-out;
+          -ms-transition: all 200ms ease-out;
+          transition: all 200ms ease-out;
+        }
+
+        .footer img:hover {background-color: white;}
+        .company-information, .home-footer, .portfolio-footer, .resume-footer, .contact-footer {margin-top: 50px;}
+        .footer ul {
+          list-style: none;
+          padding-left: 0;
+        }
+
+        .home-footer a, .portfolio-footer a, .resume-footer a, .contact-footer a {color: white;}
+        .home-footer a:hover, .portfolio-footer a:hover, .resume-footer a:hover, .contact-footer a:hover {
+        }
         </style>
         </head>
         
@@ -124,6 +171,128 @@
 
           </div>
         </div>
+
+        <div class = "contact">
+          <div class = "container-fluid">
+            <div class = "row">
+              <div class = "col-sm-12 col-md-12 text-center">
+                <div class = "contact-header">
+                  <h1>Contact</h1>
+                </div>
+              </div>
+            </div>
+        
+            <div class = "row">
+              <div class = "col-sm-6 col-md-6">
+                <div class = "contact-instructions">
+                  <h2>Reaching out to me</h2>
+                  <p>Don't be afraid to contact me! I'm happy to answer any questions, provide more information, or just have a nice conversation! Fill out the form below to being reaching out to me. You can email me at mandala.uday@gmail.com.</p>
+                  </br>
+                  </br>
+                  </br>
+                  <h2>Contact Information</h2>
+                  <p>Uday Mandala</p>
+                  <p>Atlanta Area</p>
+                  <p>(470)-587-3524</p>
+                  <p>mandala.uday@gmail.com</p>
+                </div>
+              </div>
+    
+              <div class = "col-sm-6 col-md-6">
+                <div class = "contact-form-body">
+                  <form>
+                    <div class = "row">
+                      <div class = "col-sm-6 col-md-6">
+                        <div class = "firstname">
+                          <h4>Full Name *</h4>
+                          <input type = "text" placeholder= "First Name">
+                        </div>
+                      </div>
+    
+                      <div class = "col-sm-6 col-md-6">
+                        <div class = "lastname">
+                          <h4>Full Name *</h4>
+                          <input type = "text" placeholder= "Last Name">
+                        </div>
+                      </div>
+                    </div>
+    
+                    <div class = "row">
+                      <div class = "col-sm-12 col-md-12">
+                        <div class = "email">
+                          <h4>Email *</h4>
+                          <input type = "text" placeholder= "Email">
+                        </div>
+                      </div>
+                    </div>
+    
+                    <div class = "row">
+                      <div class = "col-sm-12 col-md-12">
+                        <div class = "message">
+                          <h4>Message *</h4>
+                          <textarea placeholder= "Message"></textarea>
+                        </div>
+                      </div>
+                    </div>
+    
+                    <div class = "row">
+                      <div class = "col-sm-4 col-md-4 col-sm-offset-4 col-md-offset-4">
+                        <div class = "submit-contact">
+                          <a class = "btn btn-default btn-border" href = "#">Submit</a>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Footer content -->
+        <div class = "footer">
+          <div class = "container-fluid">
+            <div class = "row">
+              <div class = "media-links">
+                <div class = "col-sm-1 col-md-1 col-sm-offset-4 col-md-offset-4">
+                  <div class = "facebook">
+                    <a href = "#"><img class = "img-responsive" src = "./images/facebook.svg"></a>
+                  </div>
+                </div>
+    
+                <div class = "col-sm-1 col-md-1">
+                  <div class = "linkedin">
+                    <a href = "#"><img class = "img-responsive" src = "./images/linkedin.svg"></a>
+                  </div>
+                </div>
+    
+                <div class = "col-sm-1 col-md-1">
+                  <div class = "pinterest">
+                    <a href = "#"><img class = "img-responsive" src = "./images/pinterest.svg"></a>
+                  </div>
+                </div>
+    
+                <div class = "col-sm-1 col-md-1">
+                  <div class = "email-icon">
+                    <a href = "#"><img class = "img-responsive" src = "./images/email.svg"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class = "row">
+              <div class = "col-sm-6 col-md-6 text-right">
+                <div class = "personal-contact phone">
+                  <h4>Phone: (470)-587-3524</h4>
+                </div>
+              </div>
+    
+              <div class = "col-sm-6 col-md-6 text-left">
+                <div class = "personal-contact email-personal-contact">
+                  <h4>Email: mandala.uday@gmail.com</h4>
+                </div>
+              </div>
+            </div>
         </body>
 </body>
 </html>
